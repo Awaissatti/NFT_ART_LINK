@@ -106,7 +106,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-5 text-center">
-              <img className="w-100" src={Img2} />
+              <img className="w-100 set" src={Img2} />
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function Home() {
         <div className="container">
           <h1 className="nft-1">Buy Original Art Online</h1>
           <div className="row">
-            <div className="col-md-6 bg ">
+            <div className="col-md-6 bg  ">
               <p className="text-1 text-white">
                 NFTs are universally investable assets that everyone can gain
                 access to. Whether you are interested in owning an asset because
@@ -174,7 +174,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-6">
-              <img className="w-100" src={Img10} />
+              <img className="w-100 set" src={Img10} />
             </div>
           </div>
         </div>

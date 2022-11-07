@@ -95,6 +95,7 @@ h2 {
 }
 .gap2{
     padding-top: 90px;
+    cursor: pointer;
 }
 .grp1{
     max-width: 100%;
@@ -151,4 +152,54 @@ h2 {
 .logo{
   max-width: 100%;
   width: 75px !important;
+}
+@media only screen and (max-width: 600px) {
+  .nft {
+  font-size: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .btn2 {
+  margin-top: 20px;
+  font-size: 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero {
+  margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .set {
+  margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .grp1 {
+  margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .bg {
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .text-1 {
+  font-size: 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .btn1 {
+  font-size: 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .bg3 {
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
 }
