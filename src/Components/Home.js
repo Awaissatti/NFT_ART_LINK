@@ -12,10 +12,55 @@ import Img9 from "../Images/Group 15.png";
 import Img10 from "../Images/section.png";
 import Img11 from "../Images/nft.png";
 import Img12 from "../Images/Seven Section.png";
+import Img13 from "../Images/logo.png";
 
 export default function Home() {
   return (
     <div>
+      <div className="Background pt-2 pb-2">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+            <img className="logo" src={Img13}/>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    NFTartLINK AUCTIONS
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    COMMUNITY ACTIONS
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    DASHBOARD
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
       <div className=" Background">
         <div className="container">
           <div className="row">
@@ -166,12 +211,12 @@ export default function Home() {
               </h1>
               <img className="w-100 nfta" src={Img11} />
             </div>
-                  </div>
-                  <div className="row">
-                      <div className="col-md-12 text-center">
-                      <img className="w-100 seven" src={Img12} />
-                      </div>
-                  </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <img className="w-100 seven" src={Img12} />
+            </div>
+          </div>
         </div>
       </div>
     </div>

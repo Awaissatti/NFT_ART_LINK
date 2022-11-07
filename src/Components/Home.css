@@ -137,3 +137,18 @@ h2 {
     max-width: 100%;
     width: 900px !important;
 }
+.background-nav{
+  /* background-image: url(../Images/Header.png); */
+  background-size: cover;
+  /* background-color: #d03042; */
+}
+.nav-link{
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 500;
+  color: white !important;
+}
+.logo{
+  max-width: 100%;
+  width: 75px !important;
+}
