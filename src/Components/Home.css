@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+h1 {
+  font-family: "Inter";
+  font-weight: 700;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+h2 {
+  font-family: "Inter";
+  font-weight: 300;
+  color: #fff;
+}
+
+.container {
+  max-width: 100%;
+  width: 1400px !important;
+}
+.Background {
+  background-image: url(../Images/Background-Hero.png);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero {
+  max-width: 100%;
+  width: 700px !important;
+  margin-left: 90px;
+}
+
+.nft {
+  font-size: 70px;
+  color: #fff;
+  padding-top: 90px;
+}
+.nft1{
+    font-size: 35px;
+    color: white;
+}
+.sub-head {
+  font-size: 30px;
+}
+.btn1 {
+  width: 143px;
+  height: 52px;
+  left: 10px;
+  top: 293px;
+  border:none;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Inter';
+  color: white;
+
+  background: linear-gradient(102.4deg, #d03042 40.99%, #a02bca 104.66%);
+  border-radius: 52.8667px;
+}
+.btn2{
+    width: 123.07px;
+    height: 52px;
+    left: 165.13px;
+    top: 293px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
+    
+    background: linear-gradient(102.4deg, rgba(208, 48, 66, 0) 40.99%, rgba(255, 126, 141, 0) 104.66%);
+    border: 2px solid #FFFFFF;
+    border-radius: 52.8667px;
+    color: white;
+}
+.gap{
+    padding-top: 90px;
+}
+.text{
+    font-size: 16px;
+    font-weight: 300;
+}
+.background-1{
+    background-image: url(../Images/Body\ Background.png);
+    background-size: cover;
+    min-height: 70vh;
+}
+.group{
+    max-width: 100%;
+    width: 250px !important;
+}
+.gap1{
+    padding-top: 290px;
+    margin-top: -120px;
+    padding-bottom: 70px;
+}
+.background-2{
+   background-image: url(../Images/Ellipse\ 18.png);
+   background-size: cover;
+   background-color: #000000;
+   background-position: center;
+}
+.gap2{
+    padding-top: 90px;
+}
+.grp1{
+    max-width: 100%;
+    width: 450px !important;
+}
+.bg{
+    background-image: url(../Images/Rectangle\ 54.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    padding: 60px;
+}
+.nft-1{
+    font-size: 35px;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.text-1{
+    font-size: 17px;
+    font-weight: 300;
+}
+.nfta{
+    max-width: 100%;
+    width: 450px !important;
+}
+.nft-3{
+    font-size: 35px;
+    color: white;
+  padding-top: 70px;
+}
+.bg3{
+    background-image: url(../Images/purple.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    padding: 60px;
+}
+.seven{
+    max-width: 100%;
+    width: 900px !important;
+}
