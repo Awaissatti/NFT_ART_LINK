@@ -13,6 +13,10 @@ import Img10 from "../Images/section.png";
 import Img11 from "../Images/nft.png";
 import Img12 from "../Images/Seven Section.png";
 import Img13 from "../Images/logo.png";
+import Img14 from "../Images/te1.png";
+import Img15 from "../Images/te2.png";
+import Img16 from "../Images/te3.png";
+import Img17 from "../Images/Binance.png";
 
 export default function Home() {
   return (
@@ -21,7 +25,7 @@ export default function Home() {
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
             <a class="navbar-brand" href="#">
-            <img className="logo" src={Img13}/>
+              <img className="logo" src={Img13} />
             </a>
             <button
               class="navbar-toggler"
@@ -135,16 +139,120 @@ export default function Home() {
       </div>
       <div className="background-2">
         <div className="container">
-          <div className="row gap2 pb-5">
-            <div className="col-md-4">
-              {" "}
-              <img className="w-100 grp1" src={Img7} />
+          <div className="row gap pb-5">
+            <div className="col-md-3 main-bg">
+              <div className="img">
+                <img className="w-100" src={Img16} />
+              </div>
+              <div className="content">
+                <h1 className="nf pt-3">Uphill by Antoine Grimée</h1>
+                <p className="text-white">
+                  This is inspired by the love that binds the people of
+                  Luxembourg to their culture and their bikes. The colors used
+                  are from the Luxembourgish flag and the red lion symbolizes
+                  the Grand
+                </p>
+              </div>
+              <div className="d-flex">
+                <div className="com">
+                  <h1 className="txti">Address</h1>
+                  <p className="text-white">0x000..000</p>
+                </div>
+                <div className="com d-flex flex-coloumn">
+                  <div>
+                    <h1 className="txti">Current price</h1>
+                  </div>
+
+                  <div className="my-price-token">
+                    <img className="ico" src={Img17} />
+                    &nbsp;&nbsp;<span className="text-white">0.2</span>
+                  </div>
+                </div>
+              </div>
+              <div className="content">
+                <p className="text-white pt-4 pl-5 pb-1">
+                Tue, 15 Nov 2022 08:36:00 GMT
+                </p>
+              </div>
+              <div className="text-center mar pt-2">
+                <button className="btn-5">Details</button>
+              </div>
             </div>
-            <div className="col-md-4">
-              <img className="w-100 grp1" src={Img8} />
+            <div className="col-md-3 main-bg">
+              <div className="img">
+                <img className="w-100" src={Img15} />
+              </div>
+              <div className="content">
+                <h1 className="nf pt-3">Skull</h1>
+                <p className="text-white">
+                  This is inspired by the love that binds the people of
+                  Luxembourg to their culture and their bikes. The colors used
+                  are from the Luxembourgish flag and the red lion symbolizes
+                  the Grand
+                </p>
+              </div>
+              <div className="d-flex">
+                <div className="com">
+                  <h1 className="txti">Address</h1>
+                  <p className="text-white">0x7Cf..1E7</p>
+                </div>
+                <div className="com d-flex flex-coloumn">
+                  <div>
+                    <h1 className="txti">Current price</h1>
+                  </div>
+
+                  <div className="my-price-token">
+                    <img className="ico" src={Img17} />
+                    &nbsp;&nbsp;<span className="text-white">0.0015</span>
+                  </div>
+                </div>
+              </div>
+              <div className="content">
+                <p className="text-white pt-4 pl-5 pb-1">
+                Sat, 19 Nov 2022 13:08:00 GMT
+                </p>
+              </div>
+              <div className="text-center mar pt-2">
+                <button className="btn-5">Details</button>
+              </div>
             </div>
-            <div className="col-md-4">
-              <img className="w-100 grp1" src={Img9} />
+            <div className="col-md-3 main-bg">
+              <div className="img">
+                <img className="w-100" src={Img14} />
+              </div>
+              <div className="content">
+                <h1 className="nf pt-3">Grafite JD</h1>
+                <p className="text-white">
+                  This is inspired by the love that binds the people of
+                  Luxembourg to their culture and their bikes. The colors used
+                  are from the Luxembourgish flag and the red lion symbolizes
+                  the Grand
+                </p>
+              </div>
+              <div className="d-flex">
+                <div className="com">
+                  <h1 className="txti">Address</h1>
+                  <p className="text-white">0x000..000</p>
+                </div>
+                <div className="com d-flex flex-coloumn">
+                  <div>
+                    <h1 className="txti">Current price</h1>
+                  </div>
+
+                  <div className="my-price-token">
+                    <img className="ico" src={Img17} />
+                    &nbsp;&nbsp;<span className="text-white">0.1</span>
+                  </div>
+                </div>
+              </div>
+              <div className="content">
+                <p className="text-white pt-4 pl-5 pb-1">
+                Tue, 01 Nov 2022 01:35:00 GMT
+                </p>
+              </div>
+              <div className="text-center mar pt-2">
+                <button className="btn-5">Details</button>
+              </div>
             </div>
           </div>
         </div>
